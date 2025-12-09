@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API_URL = import.meta.env.VITE_API_URL
+const API_URL = 'https://ai-agent-duo-bdy5.vercel.app/api'
 
 export const api = async (pergunta) => {
     try {
